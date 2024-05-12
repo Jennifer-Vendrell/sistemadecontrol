@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+    background-image: url(../img-inicio/azul.png);
+    background-attachment: fixed;
+    
+    
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(10, 3, 54);
+}
+
+#fecha{
+    text-align: center;
+    color: rgb(109, 108, 108);
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.container{
+    width: 700px;
+    background: rgb(224, 232, 233);
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 6px 10px #0b1111;
+}
+
+.acceso{
+    color: blue;
+}
+
+.num_control{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 30px;
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 20px;
+}
+
+.entrada{
+    background: rgb(81, 121, 231);
+    width: 100%;
+    padding: 25px 35px;
+    color: white;
+    text-align: center;
+    text-decoration: none
+    
+}
+
+.salida{
+    background: red;
+    width: 100%;
+    padding: 25px 35px;
+    color: white;
+    text-align: center;
+    text-decoration: none
+}
